@@ -51,7 +51,7 @@ Our team has recently developed a pipeline tackling exactly this problem — pre
 
 The following resources will be provided by the organizers:
 
-- **Train and test splits** from the CryptoBench benchmark, containing PDB IDs of apo-holo structure pairs along with the corresponding binding site residue annotations (ground truth labels). The full dataset is also available from the [CryptoBench OSF project site](https://osf.io/pz4a9/).
+- **Train and test splits** from the CryptoBench benchmark, containing PDB IDs of apo-holo structure pairs along with the corresponding binding site residue annotations (ground truth labels), together with the corresponding CIF files. The full dataset is also available from the [CryptoBench OSF project site](https://osf.io/pz4a9/).
 - **CBS model**: a fine-tuned protein language model that outputs per-residue probabilities of belonging to a cryptic binding site, along with instructions for running inference.
 - **Embedding extraction script**: a script demonstrating how to obtain raw PLM residue embeddings from the CBS model, in case your pipeline makes use of these embeddings (e.g., as features for an ML-based clustering step). The underlying ESM-2 embedding generation code is available at [this repository](https://github.com/skrhakv/esm2-generator).
 

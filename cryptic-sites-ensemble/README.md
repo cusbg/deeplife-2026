@@ -49,7 +49,7 @@ As an optional output, teams are encouraged to produce visualizations of predict
 
 The following resources will be provided by the organizers:
 
-- **Train and test splits** from the CryptoBench benchmark, containing PDB IDs of apo-holo structure pairs along with the corresponding binding site residue annotations (ground truth labels). The full dataset is also available from the [CryptoBench OSF project site](https://osf.io/pz4a9/).
+- **Train and test splits** from the CryptoBench benchmark, containing PDB IDs of apo-holo structure pairs along with the corresponding binding site residue annotations (ground truth labels), together with the corresponding CIF files. The full dataset is also available from the [CryptoBench OSF project site](https://osf.io/pz4a9/).
 
 ## Useful Resources
 
