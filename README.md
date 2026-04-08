@@ -33,10 +33,11 @@ If interested in any aditional information regarding the CryptoBench dataset, yo
 defines a pocket in *4pfs* (chain *B*) which can bind *ANP* and *ADP*.
 
 - **Identifiers**: Uses `auth_asym_id` (Chain) and `auth_seq_id` (Residues). See [PDB Identifiers](https://www.rcsb.org/docs/general-help/identifiers-in-pdb) for details.
-- **Multiple Pockets**: Separate lines for the same PDB+Chain indicate multiple distinct cryptic pockets, like this (two pockets, one binding *NAP* and *NDP* and other binding *DA3* and *2NP*):
+- **Multiple Pockets**: Separate lines for the same PDB+Chain indicate multiple distinct cryptic pockets. For example, the *3st6C* contains three cryptic pockets that bind ligand *RVA*:
 ```
-5loc;A;NAP NDP;11 12 13 14 15 16 36 37 38 66 67 68 69 72 89 91 118 119 120 121 122 151 152 155 158 159 243 271 275
-5loc;A;DA3 2NP;91 120 121 145 149 150 151 152 153 170 196 245 271
+3st6;C;RVA;40 41 154 155 156 159
+3st6;C;RVA;207 252 253 268 269 270 301 361 385 402 404 405 418 419 420 434 438
+3st6;C;RVA;204 205 296 297 300 303 423
 ```
 - *Note: For simplicity, both the test and train subsets exclude pockets spanning multiple chains.*
 
