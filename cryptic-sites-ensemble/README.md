@@ -51,6 +51,9 @@ The following resources will be provided by the organizers:
 
 - **Train and test splits** from the CryptoBench benchmark, containing PDB IDs of apo-holo structure pairs along with the corresponding binding site residue annotations (ground truth labels), together with the corresponding CIF files. The full dataset is also available from the [CryptoBench OSF project site](https://osf.io/pz4a9/).
 
+See the main [README.md](https://github.com/cusbg/deeplife-2026/blob/master/README.md) for the resources.
+
+
 ## Useful Resources
 
 - Conformational ensemble generation: [BioEmu](https://github.com/microsoft/bioemu) | [AlphaFlow](https://github.com/bjing2016/alphaflow) | [P2DFlow](https://github.com/bleach366/p2dflow).

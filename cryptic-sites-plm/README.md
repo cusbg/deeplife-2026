@@ -55,6 +55,8 @@ The following resources will be provided by the organizers:
 - **CBS model**: a fine-tuned protein language model that outputs per-residue probabilities of belonging to a cryptic binding site, along with instructions for running inference.
 - **Embedding extraction script**: a script demonstrating how to obtain raw PLM residue embeddings from the CBS model, in case your pipeline makes use of these embeddings (e.g., as features for an ML-based clustering step). The underlying ESM-2 embedding generation code is available at [this repository](https://github.com/skrhakv/esm2-generator).
 
+See the main [README.md](https://github.com/cusbg/deeplife-2026/blob/master/README.md) for the resources.
+
 ## Useful Resources
 
 - Protein structure handling: BioPython's [Bio.PDB package](https://biopython.org/docs/1.75/api/Bio.PDB.html) — a short tutorial is available [here](https://biopython.org/DIST/docs/tutorial/Tutorial.html#sec240) | [Biotite](https://www.biotite-python.org/latest/)
