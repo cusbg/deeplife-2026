@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "team_name": "example-team",
+    "model_version": "v1.0",
+    "submission_date": "2026-05-31",
+    "description": "Example submission demonstrating the protocol format."
+  },
+  "predictions": [
+    {
+      "pdb_id": "4pfs",
+      "chain": "B",
+      "ranked_pockets": [
+        {
+          "rank": 1,
+          "probability": 0.91,
+          "residues": ["B:191", "B:192", "B:217", "B:218", "B:219", "B:220", "B:221", "B:222", "B:223"],
+          "center": [-4.8, 9.5, -41.2]
+        },
+        {
+          "rank": 2,
+          "probability": 0.63,
+          "residues": ["B:48", "B:50", "B:135"],
+          "center": [2.1, 15.3, -38.7]
+        }
+      ]
+    },
+    {
+      "pdb_id": "1ute",
+      "chain": "A",
+      "ranked_pockets": [
+        {
+          "rank": 1,
+          "probability": 0.78,
+          "residues": ["A:4", "A:5", "A:6", "A:8", "A:125", "A:126"],
+          "center": [5.3, 12.1, -8.4]
+        },
+        {
+          "rank": 2,
+          "probability": 0.55,
+          "residues": ["A:199", "A:203"],
+          "center": [8.1, 14.5, -6.2]
+        }
+      ]
+    }
+  ]
+}
